@@ -1,4 +1,5 @@
 from flask import Flask, request, jsonify
+import os
 import scrapy
 from scrapy.crawler import CrawlerProcess
 from bs4 import BeautifulSoup
@@ -7,7 +8,6 @@ from urllib.parse import urlparse
 import whatcms
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
-import os
 
 app = Flask(__name__)
 
