@@ -1,1 +1,7 @@
+Flask
 gunicorn
+scrapy
+beautifulsoup4
+requests
+whatcms
+selenium
